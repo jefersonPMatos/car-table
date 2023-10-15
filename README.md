@@ -19,16 +19,15 @@ git clone git@github.com:jefersonPMatos/car-table.git
 Instale as dependências
 
 ```
-npm install / yarn add
+npm install 
 ```
 
 Rode o projeto localmente
 
 ```
-npm run dev / yarn dev
+npm run dev 
 ```
 
-Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.
 
 ---
 
