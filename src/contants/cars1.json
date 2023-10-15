@@ -1,0 +1,136 @@
+{
+  "cars": [
+    {
+      "id": 55,
+      "timestamp_cadastro": 1696549488,
+      "modelo_id": 88,
+      "ano": 2014,
+      "combustivel": "FLEX",
+      "num_portas": 4,
+      "cor": "BRANCA",
+      "nome_modelo": "ETIOS",
+      "valor": 36.0,
+      "brand": 1
+    },
+    {
+      "id": 23,
+      "timestamp_cadastro": 1696531236,
+      "modelo_id": 77,
+      "ano": 2014,
+      "combustivel": "FLEX",
+      "num_portas": 4,
+      "cor": "PRETO",
+      "nome_modelo": "COROLLA",
+      "valor": 120.0,
+      "brand": 1
+    },
+    {
+      "id": 3,
+      "timestamp_cadastro": 16965354321,
+      "modelo_id": 79,
+      "ano": 1993,
+      "combustivel": "DIESEL",
+      "num_portas": 4,
+      "cor": "AZUL",
+      "nome_modelo": "HILLUX SW4",
+      "valor": 47.5,
+      "brand": 1
+    },
+    {
+      "id": 4,
+      "timestamp_cadastro": 1696549488,
+      "modelo_id": 90,
+      "ano": 2018,
+      "combustivel": "GASOLINA",
+      "num_portas": 4,
+      "cor": "PRATA",
+      "nome_modelo": "CAMRY",
+      "valor": 90.0,
+      "brand": 1
+    },
+    {
+      "id": 5,
+      "timestamp_cadastro": 1696549588,
+      "modelo_id": 91,
+      "ano": 2017,
+      "combustivel": "FLEX",
+      "num_portas": 4,
+      "cor": "VERMELHO",
+      "nome_modelo": "RAV4",
+      "valor": 65.0,
+      "brand": 1
+    },
+    {
+      "id": 6,
+      "timestamp_cadastro": 1696549887,
+      "modelo_id": 85,
+      "ano": 2020,
+      "combustivel": "FLEX",
+      "num_portas": 4,
+      "cor": "PRATA",
+      "nome_modelo": "YARIS",
+      "valor": 55.0,
+      "brand": 1
+    },
+    {
+      "id": 7,
+      "timestamp_cadastro": 1696549987,
+      "modelo_id": 82,
+      "ano": 2019,
+      "combustivel": "FLEX",
+      "num_portas": 4,
+      "cor": "AZUL",
+      "nome_modelo": "RAV4",
+      "valor": 70.0,
+      "brand": 1
+    },
+    {
+      "id": 8,
+      "timestamp_cadastro": 1696550087,
+      "modelo_id": 89,
+      "ano": 2016,
+      "combustivel": "GASOLINA",
+      "num_portas": 2,
+      "cor": "VERDE",
+      "nome_modelo": "PRIUS",
+      "valor": 45.0,
+      "brand": 1
+    },
+    {
+      "id": 9,
+      "timestamp_cadastro": 1696550187,
+      "modelo_id": 87,
+      "ano": 2021,
+      "combustivel": "FLEX",
+      "num_portas": 2,
+      "cor": "BRANCO",
+      "nome_modelo": "C-HR",
+      "valor": 60.0,
+      "brand": 1
+    },
+    {
+      "id": 10,
+      "timestamp_cadastro": 1696550287,
+      "modelo_id": 78,
+      "ano": 2015,
+      "combustivel": "DIESEL",
+      "num_portas": 4,
+      "cor": "PRETO",
+      "nome_modelo": "FORTUNER",
+      "valor": 55.0,
+      "brand": 1
+    },
+    {
+      "id": 11,
+      "timestamp_cadastro": 1696550387,
+      "modelo_id": 86,
+      "ano": 2022,
+      "combustivel": "FLEX",
+      "num_portas": 2,
+      "cor": "VERMELHO",
+      "nome_modelo": "SUPRA",
+      "valor": 80.0,
+      "brand": 1
+    }
+  ]
+}
