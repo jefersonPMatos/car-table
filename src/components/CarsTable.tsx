@@ -17,14 +17,14 @@ export const CarsTable: React.FC<CarsTableProps> = ({ data }) => {
     [
       car.nome_modelo.toLowerCase(),
       formatTimestamp(car.timestamp_cadastro).date,
-      car.ano.toString(),
+      car.ano.toString().toLowerCase(),
       car.combustivel.toLowerCase(),
-      car.num_portas.toString(),
+      car.num_portas.toString().toLowerCase(),
       car.cor.toLowerCase(),
-      car.valor.toString(),
-      car.brand.toString(),
-      car.nome_modelo.toString(),
-      car.modelo_id.toString(),
+      car.valor.toString().toLowerCase(),
+      car.brand.toString().toLowerCase(),
+      car.nome_modelo.toString().toLowerCase(),
+      car.modelo_id.toString().toLowerCase(),
     ].some((value) => value.includes(searchValue.toLowerCase()))
   );
 
@@ -53,7 +53,7 @@ export const CarsTable: React.FC<CarsTableProps> = ({ data }) => {
     return 0;
   });
 
-  const itemsPerPage = 5;
+  const itemsPerPage = 8;
   const startIndex = currentPage * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
   const displayedData = sortedData.slice(startIndex, endIndex);

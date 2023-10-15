@@ -9,6 +9,7 @@ type ModalProps = {
 
 export const Modal: FC<ModalProps> = ({ onSave }) => {
   const [isModalOpen, setModalOpen] = useState(false);
+
   const {
     handleSubmit,
     control,
@@ -23,9 +24,8 @@ export const Modal: FC<ModalProps> = ({ onSave }) => {
       id: uniqueID,
       timestamp_cadastro: timestamp,
     };
-
     onSave((prevCars) => [...prevCars, newCar]);
-
+    alert("Carro cadastrado com sucesso!");
     setModalOpen(false);
   };
 
